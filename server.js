@@ -8,8 +8,8 @@ const teamsData = require('./data/teams');
 
 const schema = buildSchema(`
     type Query {
-        player: Player,
         players: [Player],
+        player(name: String): Player,
         teams: [Team],
         team(name: String): Team,
     },
@@ -38,6 +38,7 @@ const getTeam = (name) => {
 
 
 const root = {
+    player: arg => playerData.find(player => player.name === arg.name),
     players: () => playerData,
     teams: () => {
         // Return team with players
