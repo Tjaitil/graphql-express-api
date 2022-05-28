@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "villareal",
+        "league": "la liga",
+        "country": "spain"
+    },
+    {
+        "id": 2,
+        "name": "manchester city",
+        "league": "premier league",
+        "country": "england"
+    },
+    {
+        "id": 3,
+        "name": "real madrid",
+        "league": "la liga",
+        "country": "spain"
+    }
+]

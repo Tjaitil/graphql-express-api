@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "raul albiol",
+        "team": 1,
+        "nationality": "spain"
+    },
+    {
+        "id": 2,
+        "name": "pau torres",
+        "team": 1,
+        "nationality": "spain"
+    },
+    {
+        "id": 3,
+        "name": "karim benzema",
+        "team": 3, 
+        "nationality": "spain"
+    },
+    {
+        "id": 4,
+        "name": "kevin de bruyne",
+        "team": 2,
+        "nationality": "netherlands"
+    },
+    {
+        "id": 5,
+        "name": "raheem sterling",
+        "team": 2,
+        "nationality": "england"
+    },
+    {
+        "id": 6,
+        "name": "luka modric",
+        "team": 3,
+        "nationality": "croatia"
+    }
+]
